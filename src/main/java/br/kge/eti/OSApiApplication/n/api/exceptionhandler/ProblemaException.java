@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package br.kge.eti.OSApiApplication;
+package br.kge.eti.OSApiApplication.n.api.exceptionhandler;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -52,6 +52,8 @@ public class ProblemaException {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
+    
+    
     
     public static class CampoProblema {
 
